@@ -93,6 +93,8 @@ Add this to your `.eslintrc.json`:
 
 Please read [guidelines for contributing].
 
+> **Note:** this ESLint config was created using [eslint-config-template].
+
 ## License
 
 [![License](https://img.shields.io/npm/l/eslint-config-flowtype-strict.svg)][license]
@@ -119,4 +121,5 @@ Please read [guidelines for contributing].
 [node.js]: https://nodejs.org/
 [eslint]: https://eslint.org/
 [guidelines for contributing]: CONTRIBUTING.md
+[eslint-config-template]: https://github.com/amercier/eslint-config-template
 [license]: LICENSE.md
