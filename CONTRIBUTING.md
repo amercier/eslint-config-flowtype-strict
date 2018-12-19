@@ -18,8 +18,8 @@ Runs [Prettier] to check all source files are well formatted.
 
 Runs [ESLint] in the `test/` folder to check the current configuration (`index.json`).
 
-[open an issue]: https://github.com/amercier/eslint-config-template/issues/new
-[pull request]: https://github.com/amercier/eslint-config-template/pulls
-[existing issues]: https://github.com/amercier/eslint-config-template/issues?q=is%3Aissue
+[open an issue]: https://github.com/amercier/eslint-config-flowtype-strict/issues/new
+[pull request]: https://github.com/amercier/eslint-config-flowtype-strict/pulls
+[existing issues]: https://github.com/amercier/eslint-config-flowtype-strict/issues?q=is%3Aissue
 [prettier]: https://prettier.io/
 [eslint]: https://eslint.org/

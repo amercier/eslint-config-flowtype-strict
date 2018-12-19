@@ -1,37 +1,16 @@
-# eslint-config-template
+# eslint-config-flowtype-strict
 
-> Skeleton for [ESLint shareable configs].
+> ESLint [shareable config] for [eslint-plugin-flowtype]: [recommended] + more rules.
 
-[![Latest Stable Version](https://img.shields.io/npm/v/eslint-config-template.svg)](https://www.npmjs.com/package/eslint-config-template)
-[![Build Status](https://img.shields.io/travis/amercier/eslint-config-template/master.svg)](https://travis-ci.org/amercier/eslint-config-template)
-[![Greenkeeper](https://badges.greenkeeper.io/amercier/eslint-config-template.svg)](https://github.com/amercier/eslint-config-template/issues?q=label%3Agreenkeeper)
+[![Latest Stable Version](https://img.shields.io/npm/v/eslint-config-flowtype-strict.svg)](https://www.npmjs.com/package/eslint-config-flowtype-strict)
+[![Build Status](https://img.shields.io/travis/amercier/eslint-config-flowtype-strict/master.svg)](https://travis-ci.org/amercier/eslint-config-flowtype-strict)
+[![Greenkeeper](https://badges.greenkeeper.io/amercier/eslint-config-flowtype-strict.svg)](https://github.com/amercier/eslint-config-flowtype-strict/issues?q=label%3Agreenkeeper)
 
 Example of valid code:
 
 ```js
 // # TODO
 //
-// - Clone this repository and push it to your own. DO NOT FORK IT, unless you are certain you will
-//   only do it once (GitHub doesn't allow multiple forks of the same project on the same account).
-//
-//       git clone https://github.com/amercier/eslint-config-template.git <YOUR_REPOSITORY_NAME>
-//       git remote rename origin upstream
-//       git remote add origin <YOUR_REPOSITORY_GIT_URL>
-//       git push -u origin master
-//
-// - Enable repository in Travis CI, trigger manual build
-// - Install and enable Greenkeeper: https://github.com/settings/installations/51959
-// - Replace `amercier/eslint-config-template` by your Github repo
-// - Replace `eslint-config-template` by your NPM package name
-// - Replace `template` by your NPM package name without "eslint-config-"
-// - Replace `Alex Mercier` by your name.
-// - Replace `https://amercier.com/` by your website.
-// - Replace `pro.alexandre.mercier@gmail.com` by your e-mail address.
-// - Replace description in `package.json`.
-// - Replace keywords in `package.json` after "verify".
-// - Go to https://www.npmjs.com/ and create a new NPM access token.
-// - Set GITHUB_TOKEN environment variable the token value in Travis CI project settings.
-// - Run `git tag v0.0.0 && git push --tags` to publish version 0.0.0
 // - Replace this todo list by actual Javascript example.
 // - Edit `index.json`
 // - Edit `test/fixture`
@@ -47,12 +26,12 @@ Prerequisites:
 - [ESLint] 4+
 
 ```sh
-npm install --save-dev eslint eslint-config-template
+npm install --save-dev eslint eslint-config-flowtype-strict
 ```
 
-[![Dependency Status](https://img.shields.io/david/amercier/eslint-config-template.svg)](https://david-dm.org/amercier/eslint-config-template)
-[![devDependency Status](https://img.shields.io/david/dev/amercier/eslint-config-template.svg)](https://david-dm.org/amercier/eslint-config-template#info=devDependencies)
-[![peerDependency Status](https://img.shields.io/david/peer/amercier/eslint-config-template.svg)](https://david-dm.org/amercier/eslint-config-template#info=devDependencies)
+[![Dependency Status](https://img.shields.io/david/amercier/eslint-config-flowtype-strict.svg)](https://david-dm.org/amercier/eslint-config-flowtype-strict)
+[![devDependency Status](https://img.shields.io/david/dev/amercier/eslint-config-flowtype-strict.svg)](https://david-dm.org/amercier/eslint-config-flowtype-strict#info=devDependencies)
+[![peerDependency Status](https://img.shields.io/david/peer/amercier/eslint-config-flowtype-strict.svg)](https://david-dm.org/amercier/eslint-config-flowtype-strict#info=devDependencies)
 
 ## Usage
 
@@ -60,7 +39,7 @@ Add this to your `.eslintrc.json`:
 
 ```json
 {
-  "extends": ["template"]
+  "extends": ["flowtype-strict"]
 }
 ```
 
@@ -70,9 +49,11 @@ Please read [guidelines for contributing].
 
 ## License
 
-[![License](https://img.shields.io/npm/l/eslint-config-template.svg)][license]
+[![License](https://img.shields.io/npm/l/eslint-config-flowtype-strict.svg)][license]
 
-[eslint shareable configs]: https://eslint.org/docs/developer-guide/shareable-configs
+[shareable config]: https://eslint.org/docs/developer-guide/shareable-configs
+[eslint-plugin-flowtype]: https://github.com/gajus/eslint-plugin-flowtype
+[recommended]: https://github.com/gajus/eslint-plugin-flowtype#recommended
 [node.js]: https://nodejs.org/
 [eslint]: https://eslint.org/
 [guidelines for contributing]: CONTRIBUTING.md

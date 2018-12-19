@@ -1,14 +1,14 @@
 {
-  "name": "eslint-config-template",
+  "name": "eslint-config-flowtype-strict",
   "version": "0.0.0",
-  "description": "Skeleton for ESLint shareable configs",
-  "homepage": "https://github.com/amercier/eslint-config-template",
+  "description": "Shareable ESLint config for eslint-plugin-flowtype: recommended + more rules.",
+  "homepage": "https://github.com/amercier/eslint-config-flowtype-strict",
   "repository": {
     "type": "git",
-    "url": "https://github.com/amercier/eslint-config-template"
+    "url": "https://github.com/amercier/eslint-config-flowtype-strict"
   },
   "bugs": {
-    "url": "https://github.com/amercier/eslint-config-template/issues"
+    "url": "https://github.com/amercier/eslint-config-flowtype-strict/issues"
   },
   "author": "Alex Mercier <pro.alexandre.mercier@gmail.com> (https://amercier.com)",
   "contributors": [
@@ -41,10 +41,12 @@
     "style linter",
     "style",
     "verify",
-    "skeleton",
-    "template",
-    "scaffolding",
-    "tool"
+    "flow",
+    "type",
+    "flowtype",
+    "recommended",
+    "strict",
+    "extended"
   ],
   "files": [
     "index.json"
