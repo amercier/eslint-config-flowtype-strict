@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-flowtype-strict",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Shareable ESLint config for eslint-plugin-flowtype: recommended + more rules.",
   "homepage": "https://github.com/amercier/eslint-config-flowtype-strict",
   "repository": {
