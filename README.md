@@ -29,6 +29,8 @@ In addition to [plugin:flowtype/recommended][recommended], the following rules a
 Example of valid code:
 
 ```js
+// @flow
+
 import React, { Component } from "react";
 
 type InputEvent = SyntheticInputEvent<HTMLInputElement>;
@@ -49,9 +51,11 @@ class Activator extends Component<AppProps, {}> {
 Example of invalid code:
 
 ```js
-type ActivatorProps = { // flowtype/require-exact-type
+/* @flow */ // <-- flowtype/require-valid-file-annotation
+
+type ActivatorProps = { // <-- flowtype/require-exact-type
   what: string,
-  onClick: function, // flowtype/no-weak-types
+  onClick: function, // <-- flowtype/no-weak-types
 };
 ```
 

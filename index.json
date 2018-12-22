@@ -1,5 +1,10 @@
 {
   "extends": "plugin:flowtype/recommended",
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": true
+    }
+  },
   "rules": {
     "flowtype/newline-after-flow-annotation": "error",
     "flowtype/no-dupe-keys": "error",
